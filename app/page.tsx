@@ -1,22 +1,19 @@
-import { Navbar } from "@/components/Navbar";
-import { Hero } from "@/components/Hero";
-import { Features } from "@/components/Features";
-import { Trust } from "@/components/Trust";
-import { CTA } from "@/components/CTA";
-import { Footer } from "@/components/Footer";
+import Hero from "@/components/Hero";
+import FeatureGrid from "@/components/FeatureGrid";
+import Trust from "@/components/Trust";
+import CTA from "@/components/CTA";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 
-export default function HomePage() {
+export default function Home() {
   return (
-    <div className="bg-zinc-950">
+    <main>
       <Navbar />
-      <main>
-        <Hero />
-        <Features />
-        <Trust />
-        <CTA />
-      </main>
+      <Hero />
+      <FeatureGrid />
+      <Trust />
+      <CTA />
       <Footer />
-    </div>
+    </main>
   );
 }
-

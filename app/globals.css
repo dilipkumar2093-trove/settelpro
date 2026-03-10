@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Simple baseline */
-html,
 body {
-  height: 100%;
+  margin: 0;
+  font-family: system-ui, sans-serif;
 }
-
