@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Simple baseline */
+html,
+body {
+  height: 100%;
+}
+
